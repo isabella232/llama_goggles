@@ -10,7 +10,7 @@ Llama Goggles uses the BEM CSS conventions: http://getbem.com/
 
 Simply copy the `llama_goggles.css` into your project and go! You can build on just these styles, or maybe you just use them as a starting point and customize them for your needs.
 
-# What's Does Yonder Pasture Hold
+# What Does Yonder Pasture Hold
 
 In the future, we want to keep adding components that we create for an integration back to Llama Goggles.
 

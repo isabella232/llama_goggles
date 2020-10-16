@@ -1,13 +1,15 @@
 /* Add styling specific for showroom here */
 
 body {
-  background: #fff;
+  background: #f7f7f7;
 }
 
 .showcase {
   margin: 10px;
 }
 
-.card {
-  background: lightgrey;
+.showcase__card {
+  background: #fff;
+  min-height: 30px;
+  width: 400px;
 }

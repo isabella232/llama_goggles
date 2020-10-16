@@ -2,30 +2,57 @@
 <link rel="stylesheet" href="showroom.css">
 <h1>Llama Goggles</h1>
 
+<h2>Text</h2>
+<p>Here is some text. <span class="text-highlight">Here is highlighted text.</span></p>
+
+<p>Here is a <a href="https://google.com">Link to something</a></p>
+
 <h2>Card</h2>
 
 <h3>Basic Card</h2>
 
 <div class="showcase">
-  <div class="card">
-    This is a card
+  <div class="card showcase__card">
+    This is a basic card with no content element inside of it
   </div>
 </div>
 <div class="showcase">
-  <div class="card card--raised">
-    This is a raised card
+  <div class="card showcase__card card--raised">
+    This is a basic raised card
   </div>
 </div>
 
 <h3>Card With Header</h2>
 
 <div class="showcase">
-  <div class="card card--raised">
+  <div class="card showcase__card card--raised">
     <div class="card__header">
       This is a card header
     </div>
     <div class="card__content">
       This is card content
+    </div>
+  </div>
+</div>
+
+<h3>Card With Logo Header, footer, and Centered Buttons</h2>
+
+<div class="showcase">
+  <div class="card showcase__card card--raised">
+    <div class="card__header">
+      <div class="logo-header">
+        <img class="logo-header__logo" src="images/lessonly.png" alt="">
+        <h1>+</h1>
+        <img class="logo-header__logo" src="images/lessonly.png" alt="">
+      </div>
+    </div>
+    <div class="card__content">
+      This is card content
+    </div>
+    <div class="card__footer">
+      <div class="buttons buttons--centered">
+        <button type="submit" class="button button--yellow">Yellow Button</button>
+      </div>
     </div>
   </div>
 </div>
@@ -40,8 +67,15 @@
 </div>
 
 <h3>Centered Button Group</h3>
-<div class="buttons u-flexJustifyCenter">
+<div class="buttons--centered">
 <button type="submit" class="button">Just a Button</button>
 <button type="submit" class="button button--blue">Blue Button</button>
 <button type="submit" class="button button--yellow">Yellow Button</button>
+</div>
+
+<h3>Anchor Tags As Buttons</h3>
+<div class="buttons">
+<a class="button">Just a Button</a>
+<a class="button button--blue">Blue Button</a>
+<a class="button button--yellow">Yellow Button</a>
 </div>

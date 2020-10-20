@@ -441,10 +441,7 @@ html {
   border: 0;
   color: #4a4a4a;
   cursor: pointer;
-  padding-bottom: calc(.5em - 1px);
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: calc(.5em - 1px);
+  padding: calc(.6em - 1px) 1.9em;
   text-align: left;
   text-decoration: none;
 }
